@@ -1,4 +1,4 @@
-cask 'imazingmini' do
+cask 'imazing-mini' do
   version '2.3.1'
   sha256 '65820880df939380db9730117669a5f2c4c4a334660762900aeda9e54539a25e'
 
