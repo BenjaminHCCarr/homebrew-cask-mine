@@ -7,7 +7,11 @@ cask 'subutai-p2p' do
   name 'Subutai'
   homepage 'https://subutai.io/'
 
+  auto_updates true
+  depends_on macos: >= :Leopard
+
   pkg 'subutai-p2p.pkg'
   installer 'base.pkg'
-  
+
+  uninstall pkgutil: 'com.Subutai.P2P'
 end
